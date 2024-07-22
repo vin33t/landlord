@@ -1,0 +1,27 @@
+{
+    "name": "vin33t/travelport",
+    "description": "Travelport SOAP API php Client",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "vin33t\\Travelport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vin33t",
+            "email": "vineet.chd09@gmail.com"
+        }
+    ],
+    "require": {
+        "fluentdom/fluentdom": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "vin33t\\Travelport\\TravelportServiceProvider"
+            ]
+        }
+    }
+}

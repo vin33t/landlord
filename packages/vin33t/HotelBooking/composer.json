@@ -1,0 +1,22 @@
+{
+    "name": "vin33t/hotel-booking",
+    "description": "A hotel booking package for Laravel. Use Stuba, Ratehawk, Travellanda",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "vin33t\\HotelBooking\\": "src"
+        }
+    },
+    "require": {
+        "php": "^8.0.2",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "vin33t\\HotelBooking\\HotelBookingServiceProvider"
+            ]
+        }
+    }
+}
